@@ -6,7 +6,7 @@ contract Withdrawal {
     uint256 public withdrawalTime;
 
     constructor(address payable _recipient) public {
-        owner = 0x//enter owner of the wallet address
+        owner = 0x;//enter owner of the wallet address
         recipient = _recipient; //enter recipient of the wallet address
         withdrawalTime = block.timestamp + 3650 days;
     }
